@@ -375,6 +375,15 @@ td{
         margin-right: 50px;
     }
 
+    .contact{
+        padding: 0.8vw;
+        border-radius: 22px;
+        font-size: 10px;
+        cursor: pointer;
+        border: 2px solid rgb(255, 251, 6);
+        
+    }
+
   }
 
   
