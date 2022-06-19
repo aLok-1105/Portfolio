@@ -1,0 +1,393 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Montserrat:wght@300&family=Rubik:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+body{
+    /* background-image: url("images/44.jpg"); */
+    background-color: rgb(26, 22, 63);
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.navcontainer{
+    font-family: 'Cairo', sans-serif;
+    color: rgb(255, 251, 6);
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+}
+
+.navitems{
+    color: rgb(255, 251, 6);
+    list-style: none;
+    font-size: 25px;
+    
+}
+
+.navitems li{
+    display: inline;
+    padding: 0px 10px;
+    padding-bottom: 2px;
+}
+
+
+
+.navitems a:hover{
+    border-bottom: 4px solid;
+    border-radius: 6px;
+}
+
+
+.infocontainer{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-top: 30px;
+
+
+}
+
+.info{
+    padding-top: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 251, 6);
+
+}
+
+.contact{
+    padding: 0.5vw;
+    border-radius: 22px;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(255, 251, 6);
+    background-color: rgba(240, 248, 255, 0);
+    border: 3px solid rgb(255, 251, 6);
+    
+}
+
+.contact:hover{
+    background-color: rgb(255, 251, 6);
+    color: black;
+}
+
+.imagecontainer{
+    margin-top: 0px;
+}
+
+.image{
+    width: 550px;
+}
+
+.subheading{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.subhead{
+    color: rgb(255, 251, 6);
+    font-size: 25px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.acvbody{
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(255, 251, 6);
+    width: 300px;
+    /* padding: 20px; */
+}
+
+.acvcontainer{
+    width: 90vw;
+    /* margin: 5vw; */
+    margin: 15px 40px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.acv-content{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.hr-acv{
+    margin-left: -40px;
+    height: 3px;
+    width: 40px;
+    background-color: rgb(255, 251, 6);
+}
+
+.heading{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.details{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.highlight{
+    color: rgb(255, 251, 6);
+}
+
+.formcontainer{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contactform{
+    width: 40vw;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.formdetais{
+    font-weight: 300;
+}
+
+.head{
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: rgb(255, 251, 6);
+}
+
+
+.name, .email, .phone, .texrarea{
+    margin-top: 7px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 25px;
+    border: 1px solid rgb(255, 251, 6);
+    border-radius: 5px;
+    
+}
+
+.textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 251, 6);
+
+}
+
+.submit{
+    padding: 0.5vw;
+    border-radius: 22px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.personal{
+    color: white;
+    font-weight: 300;
+}
+
+.social-logo{
+    margin-top: 20px;
+    width: 50px;
+    opacity: 0.7;
+}
+
+.social-logo:hover{
+    opacity: 1;
+}
+
+.education{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thead{
+    
+    font-size: 20px;
+}
+
+tr{
+    padding: 10px;
+}
+
+th{
+    color: rgb(255, 251, 6);
+    text-align: center;
+    font-size: 30px;
+}
+
+td{
+    font-size: 10px;
+    padding: 20px;
+}
+
+.edu-logo{
+    width: 40px;
+}
+
+.aboutcontainer{
+    margin: 40px;
+    display: flex;
+}
+
+.logoA, .logoB, .logoC{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.logomarquee{
+    width: 200px;
+    height: 50vh;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+.applogo{
+    width: 100px;
+    margin: 20px;
+}
+
+.expcontainer{
+    width: 90vw;
+    margin: 5vw;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.explogo{
+    width: 100px;
+}
+
+.expdetails{
+    font-weight: 500;
+    color: white;
+    padding-left: 10px;
+}
+
+.expbody, .acvbody{
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(255, 251, 6);
+    width: 310px;
+    padding: 20px;
+}
+
+.hr{
+    margin-left: -5vw;
+    height: 3px;
+    width: 9vw;
+    background-color: rgb(255, 251, 6);
+}
+
+.hrcontainer{
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    /* ul{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+
+    .navcontainer{
+
+    } */
+
+    .navcontainer {
+        /* background-color: rgba(124, 194, 255, 0.587); */
+        display: flex ;
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+    .navitems li{
+        display: flex;
+        padding-left: 0px;
+        padding-bottom: 25px;
+        align-items: start;
+    
+    }
+    .logo{
+        padding-bottom: 25px;
+    }
+
+    .infocontainer{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 30px;
+        margin-top: 50px;
+    }
+
+    .contactform{
+        width: 70vw;
+    }
+
+    
+
+    .image {
+        width: 450px;
+    }
+
+    .info{
+        padding-top: 40px;
+    }
+
+    .container{
+        width: 80vw !important;
+    }
+
+    .logomarquee{
+        direction: right;
+        width: 200px;
+        height: 50vh;
+        margin-left: 200px;
+        margin-right: 50px;
+    }
+
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
